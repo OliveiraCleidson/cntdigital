@@ -1,11 +1,68 @@
 import React from 'react';
-import { Text } from 'react-native';
-import { Container } from './styles';
+import { Image, Text } from 'react-native';
+import {
+  Card,
+  CardIcon,
+  Cards,
+  CardsContainer,
+  CardText,
+  Container,
+} from './styles';
+
+import Logo from '../../assets/images/Logo.png';
 
 const Trechos: React.FC = () => {
   return (
     <Container>
-      <Text>Trechos</Text>
+      <Image source={Logo} />
+      <Cards>
+        <CardsContainer>
+          <Card>
+            <CardIcon name="road" size={90} />
+            <CardText>Trecho 1</CardText>
+          </Card>
+          <Card>
+            <CardIcon name="road" size={90} />
+            <CardText>Trecho 1</CardText>
+          </Card>
+          <Card>
+            <CardIcon name="road" size={90} />
+            <CardText>Trecho 1</CardText>
+          </Card>
+          <Card>
+            <CardIcon name="road" size={90} />
+            <CardText>Trecho 1</CardText>
+          </Card>
+          <Card>
+            <CardIcon name="road" size={90} />
+            <CardText>Trecho 1</CardText>
+          </Card>
+          <Card>
+            <CardIcon name="road" size={90} />
+            <CardText>Trecho 1</CardText>
+          </Card>
+          <Card>
+            <CardIcon name="road" size={90} />
+            <CardText>Trecho 1</CardText>
+          </Card>
+          <Card>
+            <CardIcon name="road" size={90} />
+            <CardText>Trecho 1</CardText>
+          </Card>
+          <Card>
+            <CardIcon name="road" size={90} />
+            <CardText>Trecho 1</CardText>
+          </Card>
+          <Card>
+            <CardIcon name="road" size={90} />
+            <CardText>Trecho 1</CardText>
+          </Card>
+          <Card>
+            <CardIcon name="road" size={90} />
+            <CardText>Trecho 1</CardText>
+          </Card>
+        </CardsContainer>
+      </Cards>
     </Container>
   );
 };
